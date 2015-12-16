@@ -11,3 +11,5 @@ http.onData = function(data) {
 }
 http.request("search_callback");
 ```
+### Notes
+This library only works for the Haxe JavaScript target.
