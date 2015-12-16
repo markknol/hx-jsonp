@@ -4,7 +4,7 @@
 
 ## Usage
 ```
-var url = location.protocol + '//mywebsite.com/api/jsonp/search/';
+var url = js.Browser.location.protocol + '//mywebsite.com/api/jsonp/search/';
 var http = new haxe.Jsonp(url);
 http.onData = function(data) {
   trace(data);
