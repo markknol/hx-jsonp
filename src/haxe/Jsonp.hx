@@ -1,3 +1,4 @@
+package haxe;
 import js.Browser.window;
 import js.Browser.document;
 
